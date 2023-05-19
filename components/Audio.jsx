@@ -40,12 +40,12 @@ const Audio = ({ userProfile, roomId = "1226" }) => {
     initRtc();
   }, []);
 
-  useEffect(() => {
-    if (audioTracks.localAudioTrack)
-      return () => {
-        leaveRoom();
-      };
-  }, [audioTracks]);
+  // useEffect(() => {
+  //   if (audioTracks.localAudioTrack)
+  //     return () => {
+  //       leaveRoom();
+  //     };
+  // }, [audioTracks]);
 
   // * useeffect to remove the user from the server if they chose to close the window
   useEffect(() => {
