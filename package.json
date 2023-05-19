@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "agora-rtc-sdk-ng": "^4.17.2",
+    "agora-rtm-sdk": "^1.6.0-205",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.2",
     "next": "13.4.2",
